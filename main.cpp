@@ -11,7 +11,7 @@ int main() {
     string lastName;
     string currentName;
 
-    ifstream studentFile("LineUp.txt");
+    ifstream studentFile("Alphabetical.txt");
 
     if (!studentFile) {
         cout << "Error opening the file." << endl;
